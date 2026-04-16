@@ -38,9 +38,9 @@
 
 * **AnySeq/GPU: a novel approach for faster sequence alignment on GPUs** <br>
   André Müller, Bertil Schmidt, Richard Membarth, Roland Leißa, Sebastian Hack <br>
-  [![IPDPS 2020](https://img.shields.io/badge/IPDPS-2020-blue)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
+  [![ICS 2022](https://img.shields.io/badge/ICS-2022-blue)](https://ics2022.github.io)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/msmlh22.pdf)
-  [![IEEE](https://img.shields.io/badge/-10.1109/IPDPS47924.2020.00109-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/3524059.3532376-blue?logo=acm)](https://doi.org/10.1145/3524059.3532376)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2205.07610-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2205.07610)
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/J-QTYowR0zk?si=Y6NtyOcZFmNJ9y5W)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ics/MullerSMLH22.html?view=bibtex)
@@ -52,7 +52,7 @@
   [![TACD 2020](https://img.shields.io/badge/TACD-2020-blue)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/opmslhth20.pdf)
   [![IEEE](https://img.shields.io/badge/-10.1109/TCAD.2020.3012172-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
-  [![arXiv](https://img.shields.io/badge/arXiv-10.1109/TCAD.2020.3012172-blue?logo=arxiv)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2002.05796-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2002.05796)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/tcad/OzkanPMSLHTH20.html?view=bibtex)
 
 * **AnySeq: A High Performance Sequence Alignment Library based on Partial Evaluation** <br>
