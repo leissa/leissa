@@ -187,6 +187,8 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
   [![CC 2013](https://img.shields.io/badge/CC-2013-blue?style=flat-square)](https://www.etaps.org/2013/cc.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/bbhlmz13.pdf)
   [![Springer](https://img.shields.io/badge/Springer-10.1007/978--3--642--37051--9_6-blue?style=flat-square)](https://doi.org/10.1007/978-3-642-37051-9_6)
+  [![GitHub](https://img.shields.io/badge/GitHub-clang--ssa-blue?style=flat-square&logo=github)](https://github.com/leissa/clang-ssa)
+  [![GitHub](https://img.shields.io/badge/GitHub-llvm--ssa-blue?style=flat-square&logo=github)](https://github.com/leissa/llvm-ssa)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/cc/BraunBHLMZ13.html?view=bibtex)
 
 ### 2012
