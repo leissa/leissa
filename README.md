@@ -30,11 +30,40 @@
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
+* **AnyDSL: a partial evaluation framework for programming high-performance libraries** <br>
+  Roland Leißa, Klaas Boesche, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, André Müller, Bertil Schmidt <br>
+  [![OOPSLA 2018](https://img.shields.io/badge/OOPSLA-2018-blue)](https://2018.splashcon.org/track/splash-2018-OOPSLA)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lbhpmsms18.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/3276489-blue?logo=acm)](https://doi.org/10.1145/3276489)
+  [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/pIJga3ioFBs?si=-FVfnZ3YCCrWlG7y)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaBHPMSMS18.html?view=bibtex)
+
+* **A Data Layout Transformation for Vectorizing Compilers** <br>
+  Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Simon Moll, Roland Leißa, Sebastian Hack <br>
+  [![WPMVP 2018](https://img.shields.io/badge/WPMVP-2018-blue)](https://ppopp18.sigplan.org/track/WPMVP2018)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pmsmlh18.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/3276489-blue?logo=acm)](https://doi.org/10.1145/3276489)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaBHPMSMS18.html?view=bibtex)
+
+* **Language Support for Programming High-Performance Code** <br>
+  Roland Leißa <br>
+  [![PhD 2017](https://img.shields.io/badge/PhD-2017-blue)](https://conf.researchr.org/home/gpce-2017)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/l17.pdf)
+  [![UdS](https://img.shields.io/badge/%F0%9F%A6%89_UdS-10.22028/D291--27128-blue)](https://dx.doi.org/10.22028/D291-27128)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/phd/dnb/Leissa17.html?view=bibtex)
+
+* **RaTrace: simple and efficient abstractions for BVH ray traversal algorithms** <br>
+  Arsène Pérard-Gayot, Martin Weier, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack <br>
+  [![GPCE 2017](https://img.shields.io/badge/GPCE-2017-blue)](https://conf.researchr.org/home/gpce-2017)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pwms17.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/3136040.3136044-blue?logo=acm)](https://doi.org/10.1145/3136040.3136044)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/Perard-GayotWMS17.html?view=bibtex)
+
 * **A graph-based higher-order intermediate representation** <br>
   Roland Leißa, Marcel Köster, Sebastian Hack <br>
   [![CGO 2015](https://img.shields.io/badge/CGO-2015-blue)](https://cgo-conference.github.io/cgo2015)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lkh15.pdf)
-  [![ACM](https://img.shields.io/badge/ACM-10.1109/CGO.2015.7054200-blue?logo=acm)](https://doi.org/10.1109/CGO.2015.7054200)
+  [![IEEE](https://img.shields.io/badge/-10.1109/CGO.2015.7054200-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/CGO.2015.7054200)
   [![cTuning](https://img.shields.io/badge/%F0%9F%A5%88_cTuning-2nd_Place-blue)](https://ctuning.org/cm/wiki/index.php?title=Reproducibility:AE:CGO2015)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/cgo/LeissaKH15.html?view=bibtex)
 
