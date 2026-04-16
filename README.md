@@ -57,9 +57,9 @@
 
 * **tinyMD: Mapping molecular dynamics simulations to heterogeneous hardware using partial evaluation** <br>
 Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Roland Leißa, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Harald Köstler <br>
-  [![J. Comput. Sci.](https://img.shields.io/badge/J._Comput._Sci-2022-blue)](https://www.sciencedirect.com/journal/journal-of-computational-science/vol/54/suppl/C)
+  [![J. Comput. Sci.](https://img.shields.io/badge/J._Comput._Sci-2021-blue)](https://www.sciencedirect.com/journal/journal-of-computational-science/vol/54/suppl/C)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/mseelhpmk21.pdf)
-  [![Elsevier](https://img.shields.io/badge/Elsevier-10.1145/3524059.3532376-blue?logo=acm)](https://doi.org/10.1145/3524059.3532376)
+  [![Elsevier](https://img.shields.io/badge/Elsevier-10.1016/j.jocs.2021.101425-blue?logo=elsevier&logoColor=white)](https://doi.org/10.1016/j.jocs.2021.101425)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2009.07400-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2009.07400)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/jocs/MachadoSEELHPMK21.html?view=bibtex)
 
