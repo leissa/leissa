@@ -34,7 +34,7 @@
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
-## 2022
+### 2022
 
 * **AnySeq/GPU: a novel approach for faster sequence alignment on GPUs** <br>
   André Müller, Bertil Schmidt, Richard Membarth, Roland Leißa, Sebastian Hack <br>
