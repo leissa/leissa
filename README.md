@@ -189,6 +189,8 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
   [![Springer](https://img.shields.io/badge/Springer-10.1007/978--3--642--37051--9_6-blue)](https://doi.org/10.1007/978-3-642-37051-9_6)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/cc/BraunBHLMZ13.html?view=bibtex)
 
+### 2012
+
 * **Extending a C-like language for portable SIMD programming** <br>
   Roland Leißa, Sebastian Hack, Ingo Wald <br>
   [![PPoPP 2012](https://img.shields.io/badge/PPoPP-2012-blue)](https://ppopp22.sigplan.org/track/PPoPP-2022-main-conference)
