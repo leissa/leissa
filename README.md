@@ -34,6 +34,35 @@
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
+## 2022
+
+* **AnySeq/GPU: a novel approach for faster sequence alignment on GPUs** <br>
+  André Müller, Bertil Schmidt, Richard Membarth, Roland Leißa, Sebastian Hack <br>
+  [![IPDPS 2020](https://img.shields.io/badge/IPDPS-2020-blue)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/msmlh22.pdf)
+  [![IEEE](https://img.shields.io/badge/-10.1109/IPDPS47924.2020.00109-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2205.07610-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2205.07610)
+  [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/J-QTYowR0zk?si=Y6NtyOcZFmNJ9y5W)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ics/MullerSMLH22.html?view=bibtex)
+
+### 2020
+
+* **AnyHLS: High-Level Synthesis With Partial Evaluation** <br>
+  M. Akif Özkan, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack, Jürgen Teich, Frank Hannig <br>
+  [![TACD 2020](https://img.shields.io/badge/TACD-2020-blue)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/opmslhth20.pdf)
+  [![IEEE](https://img.shields.io/badge/-10.1109/TCAD.2020.3012172-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![arXiv](https://img.shields.io/badge/arXiv-10.1109/TCAD.2020.3012172-blue?logo=arxiv)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/tcad/OzkanPMSLHTH20.html?view=bibtex)
+
+* **AnySeq: A High Performance Sequence Alignment Library based on Partial Evaluation** <br>
+    André Müller, Bertil Schmidt, Andreas Hildebrandt, Richard Membarth, Roland Leißa, Matthis Kruse, Sebastian Hack <br>
+  [![IPDPS 2020](https://img.shields.io/badge/IPDPS-2020-blue)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/mshmlkh20.pdf)
+  [![IEEE](https://img.shields.io/badge/-10.1109/IPDPS47924.2020.00109-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2002.04561-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2002.04561)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ipps/MullerS0MLKH20.html?view=bibtex)
+
 ### 2019
 
 * **Rodent: generating renderers without writing a generator** <br>
