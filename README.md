@@ -34,6 +34,16 @@
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
+### 2019
+
+* **Rodent: generating renderers without writing a generator** <br>
+  Arsène Pérard-Gayot, Richard Membarth, Roland Leißa, Sebastian Hack, Philipp Slusallek <br>
+  [![SIGGRAPH 2019](https://img.shields.io/badge/OOPSLA-2018-blue)](https://history.siggraph.org/publication/acm-transactions-on-graphics-proceedings-of-acm-siggraph-2012-july-2012-vol-31-no-4)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pmlhs.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/3276489-blue?logo=acm)](https://doi.org/10.1145/3276489)
+  [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/pIJga3ioFBs?si=-FVfnZ3YCCrWlG7y)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaBHPMSMS18.html?view=bibtex)
+
 ### 2018
 
 * **AnyDSL: a partial evaluation framework for programming high-performance libraries** <br>
@@ -55,9 +65,9 @@
 
 * **Language Support for Programming High-Performance Code** <br>
   Roland Leißa <br>
-  [![PhD 2017](https://img.shields.io/badge/PhD-2017-blue)](https://conf.researchr.org/home/gpce-2017)
+  [![PhD 2017](https://img.shields.io/badge/PhD-2017-blue)](https://compilers.cs.uni-saarland.de/people/leissa)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/l17.pdf)
-  [![UdS](https://img.shields.io/badge/%F0%9F%A6%89_UdS-10.22028/D291--27128-blue)](https://dx.doi.org/10.22028/D291-27128)
+  [![UdS](https://img.shields.io/badge/%E2%8C%82_UdS-10.22028/D291--27128-blue)](https://dx.doi.org/10.22028/D291-27128)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/phd/dnb/Leissa17.html?view=bibtex)
 
 * **RaTrace: simple and efficient abstractions for BVH ray traversal algorithms** <br>
