@@ -83,7 +83,7 @@
 
 * **Extending a C-like language for portable SIMD programming** <br>
   Roland Leißa, Sebastian Hack, Ingo Wald <br>
-  [![PPoPP 2012](https://img.shields.io/badge/POPL-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/2145816)
+  [![PPoPP 2012](https://img.shields.io/badge/PPoPP-2025-blue)](https://dl.acm.org/doi/proceedings/10.1145/2145816)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lhw12.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/2145816.2145825-blue?logo=acm)](https://doi.org/10.1145/2145816.2145825)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ppopp/LeissaHW12.html?view=bibtex)
