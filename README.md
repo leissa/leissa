@@ -66,8 +66,8 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
 * **FLOWER: A comprehensive dataflow compiler for high-level synthesis** <br>
   Puya Amiri, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack <br>
   [![FPT 2021](https://img.shields.io/badge/FPT-2021-blue)](https://easychair.org/cfp/fpt21)
-  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/opmslhth20.pdf)
-  [![IEEE](https://img.shields.io/badge/-10.1109/TCAD.2020.3012172-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/apmslh21.pdf)
+  [![IEEE](https://img.shields.io/badge/-10.1109/ICFPT52863.2021.9609930-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/ICFPT52863.2021.9609930)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2112.07789-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2112.07789)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/fpt/AmiriPMSLH21.html?view=bibtex)
 
