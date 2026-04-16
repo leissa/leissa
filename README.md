@@ -55,7 +55,7 @@
 * **RaTrace: simple and efficient abstractions for BVH ray traversal algorithms** <br>
   Arsène Pérard-Gayot, Martin Weier, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack <br>
   [![GPCE 2017](https://img.shields.io/badge/GPCE-2017-blue)](https://conf.researchr.org/home/gpce-2017)
-  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pwms17.pdf)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pwmslh17.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3136040.3136044-blue?logo=acm)](https://doi.org/10.1145/3136040.3136044)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/Perard-GayotWMS17.html?view=bibtex)
 
