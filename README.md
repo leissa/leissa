@@ -79,7 +79,7 @@
   [![CC 2013](https://img.shields.io/badge/CC-2013-blue)](https://www.etaps.org/2013/cc.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/bbhlmz13.pdf)
   [![Springer](https://img.shields.io/badge/Springer-10.1007/978--3--642--37051--9_6-blue)](https://doi.org/10.1007/978-3-642-37051-9_6)
-  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ppopp/LeissaHW12.html?view=bibtex)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/cc/BraunBHLMZ13.html?view=bibtex)
 
 * **Extending a C-like language for portable SIMD programming** <br>
   Roland Leißa, Sebastian Hack, Ingo Wald <br>
