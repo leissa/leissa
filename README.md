@@ -56,10 +56,10 @@
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/tcad/OzkanPMSLHTH20.html?view=bibtex)
 
 * **AnySeq: A High Performance Sequence Alignment Library based on Partial Evaluation** <br>
-    André Müller, Bertil Schmidt, Andreas Hildebrandt, Richard Membarth, Roland Leißa, Matthis Kruse, Sebastian Hack <br>
-  [![IPDPS 2020](https://img.shields.io/badge/IPDPS-2020-blue)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
+  André Müller, Bertil Schmidt, Andreas Hildebrandt, Richard Membarth, Roland Leißa, Matthis Kruse, Sebastian Hack <br>
+  [![IPDPS 2020](https://img.shields.io/badge/IPDPS-2020-blue)](https://www.ipdps.org/ipdps2020/2020-.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/mshmlkh20.pdf)
-  [![IEEE](https://img.shields.io/badge/-10.1109/IPDPS47924.2020.00109-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
+  [![IEEE](https://img.shields.io/badge/-10.1109/IPDPS47924.2020.00109-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/IPDPS47924.2020.00109)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2002.04561-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2002.04561)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ipps/MullerS0MLKH20.html?view=bibtex)
 
