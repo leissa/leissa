@@ -49,7 +49,7 @@
 * **Code Refinement of Stencil Codes** <br>
   Marcel Köster, Roland Leißa, Sebastian Hack, Richard Membarth, Philipp Slusallek <br>
   [![PPL 2014](https://img.shields.io/badge/PPL-2014-blue)](https://www.worldscientific.com/toc/ppl/24/03)
-  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/dklms14.pdf)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/klhms14.pdf)
   [![World Scientific](https://img.shields.io/badge/World_Scientific-10.1142/S0129626414410035-blue)](https://doi.org/10.1142/S0129626414410035)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/ppl/KosterLHMS14.html?view=bibtex)
 
