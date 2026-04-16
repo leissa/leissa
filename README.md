@@ -30,6 +30,29 @@
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
+* **A graph-based higher-order intermediate representation** <br>
+  Roland Leißa, Marcel Köster, Sebastian Hack <br>
+  [![CGO 2015](https://img.shields.io/badge/CGO-2015-blue)](https://cgo-conference.github.io/cgo2015)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lkh15.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1109/CGO.2015.7054200-blue?logo=acm)](https://doi.org/10.1109/CGO.2015.7054200)
+  [![cTuning](https://img.shields.io/badge/%F0%9F%A5%88_cTuning-2nd_Place-blue)](https://ctuning.org/cm/wiki/index.php?title=Reproducibility:AE:CGO2015)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/cgo/LeissaKH15.html?view=bibtex)
+
+* **Shallow embedding of DSLs via online partial evaluation** <br>
+  Roland Leißa, Klaas Boesche, Sebastian Hack, Richard Membarth, Philipp Slusallek <br>
+  [![GPCE 2015](https://img.shields.io/badge/GPCE-2015-blue)](https://conf.researchr.org/home/gpce2015)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lbhms15.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1109/CGO.2015.7054200-blue?logo=acm)](https://dblp.uni-trier.de/rec/conf/gpce/LeissaBHMS15.html?view=bibtex)
+  [![Award](https://img.shields.io/badge/%F0%9F%A5%88_Award-Best_Paper-blue)](https://graphics.cg.uni-saarland.de/publications/leissa-2015-gpce-shallow-embedding.html)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/LeissaBHMS15.html?view=bibtex)
+
+* **Code Refinement of Stencil Codes** <br>
+  Marcel Köster, Roland Leißa, Sebastian Hack, Richard Membarth, Philipp Slusallek <br>
+  [![PPL 2014](https://img.shields.io/badge/PPL-2014-blue)](https://www.worldscientific.com/toc/ppl/24/03)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/dklms14.pdf)
+  [![World Scientific](https://img.shields.io/badge/World_Scientific-10.1142/S0129626414410035-blue)](https://doi.org/10.1142/S0129626414410035)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/ppl/KosterLHMS14.html?view=bibtex)
+
 * **Specialization through dynamic staging** <br>
   Piotr Danilewski, Marcel Köster, Roland Leißa, Richard Membarth, Philipp Slusallek <br>
   [![GPCE 2014](https://img.shields.io/badge/GPCE-2014-blue)](https://www.sigplan.org/OpenTOC/gpce14.html)
