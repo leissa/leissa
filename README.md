@@ -34,6 +34,14 @@
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
+### 2023
+
+* **Preparing Reproducible Scientific Artifacts using Docker** <br>
+  Michael Canesche, Roland Leißa, Fernando Magno Quintão Pereira <br>
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/clp23.pdf)
+  [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2604.09961-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2308.14122)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/corr/abs-2308-14122.html?view=bibtex)
+
 ### 2022
 
 * **AnySeq/GPU: a novel approach for faster sequence alignment on GPUs** <br>
@@ -44,6 +52,16 @@
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2205.07610-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2205.07610)
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/J-QTYowR0zk?si=Y6NtyOcZFmNJ9y5W)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ics/MullerSMLH22.html?view=bibtex)
+
+### 2021
+
+* **tinyMD: Mapping molecular dynamics simulations to heterogeneous hardware using partial evaluation** <br>
+Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Roland Leißa, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Harald Köstler <br>
+  [![J. Comput. Sci.](https://img.shields.io/badge/J._Comput._Sci-2022-blue)](https://www.sciencedirect.com/journal/journal-of-computational-science/vol/54/suppl/C)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/mseelhpmk21.pdf)
+  [![Elsevier](https://img.shields.io/badge/Elsevier-10.1145/3524059.3532376-blue?logo=acm)](https://doi.org/10.1145/3524059.3532376)
+  [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2009.07400-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2009.07400)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/jocs/MachadoSEELHPMK21.html?view=bibtex)
 
 ### 2020
 
@@ -113,6 +131,7 @@
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lkh15.pdf)
   [![IEEE](https://img.shields.io/badge/-10.1109/CGO.2015.7054200-blue?logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/CGO.2015.7054200)
   [![cTuning](https://img.shields.io/badge/%F0%9F%A5%88_cTuning-2nd_Place-blue)](https://ctuning.org/cm/wiki/index.php?title=Reproducibility:AE:CGO2015)
+  [![GitHub](https://img.shields.io/badge/GitHub-artifact-blue?logo=github)](https://github.com/AnyDSL/benchmarks-impala/tree/cgo15)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/cgo/LeissaKH15.html?view=bibtex)
 
 * **Shallow embedding of DSLs via online partial evaluation** <br>
