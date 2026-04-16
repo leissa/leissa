@@ -6,11 +6,15 @@
 
 ## 📖 Publications
 
+### 2026
+
 * **SSA without Dominance for Higher-Order Programs** <br>
   Roland Leißa, Johannes Griebler <br>
   [![PLDI 2026](https://img.shields.io/badge/PLDI-2026-blue)](https://pldi26.sigplan.org)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2604.09961-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2604.09961)
   [![zenodo](https://img.shields.io/badge/-10.5281%2Fzenodo.19069678-blue?logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.19069678)
+
+### 2025
 
 * **MimIrADe: Automatic Differentiation in MimIR** <br>
   Marcel Ullrich, Sebastian Hack, Roland Leißa <br>
@@ -30,6 +34,8 @@
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
+### 2018
+
 * **AnyDSL: a partial evaluation framework for programming high-performance libraries** <br>
   Roland Leißa, Klaas Boesche, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, André Müller, Bertil Schmidt <br>
   [![OOPSLA 2018](https://img.shields.io/badge/OOPSLA-2018-blue)](https://2018.splashcon.org/track/splash-2018-OOPSLA)
@@ -43,7 +49,9 @@
   [![WPMVP 2018](https://img.shields.io/badge/WPMVP-2018-blue)](https://ppopp18.sigplan.org/track/WPMVP2018)
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pmsmlh18.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3276489-blue?logo=acm)](https://doi.org/10.1145/3276489)
-  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaBHPMSMS18.html?view=bibtex)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ppopp/Perard-GayotMSM18.html?view=bibtex)
+
+### 2017
 
 * **Language Support for Programming High-Performance Code** <br>
   Roland Leißa <br>
@@ -58,6 +66,8 @@
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pwmslh17.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3136040.3136044-blue?logo=acm)](https://doi.org/10.1145/3136040.3136044)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/Perard-GayotWMS17.html?view=bibtex)
+
+### 2015
 
 * **A graph-based higher-order intermediate representation** <br>
   Roland Leißa, Marcel Köster, Sebastian Hack <br>
@@ -74,6 +84,8 @@
   [![ACM](https://img.shields.io/badge/ACM-10.1109/CGO.2015.7054200-blue?logo=acm)](https://dblp.uni-trier.de/rec/conf/gpce/LeissaBHMS15.html?view=bibtex)
   [![Award](https://img.shields.io/badge/%F0%9F%A5%88_Award-Best_Paper-blue)](https://graphics.cg.uni-saarland.de/publications/leissa-2015-gpce-shallow-embedding.html)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/LeissaBHMS15.html?view=bibtex)
+
+### 2014
 
 * **Code Refinement of Stencil Codes** <br>
   Marcel Köster, Roland Leißa, Sebastian Hack, Richard Membarth, Philipp Slusallek <br>
@@ -102,6 +114,8 @@
   [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/msklh14.pdf)
   [![Springer](https://img.shields.io/badge/-10.1109/WOLFHPC.2014.5-blue?logo=ieee&logoSize=auto&labelColor=555)](https://doi.org/10.1109/WOLFHPC.2014.5)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/sc/MembarthSKLH14.html?view=bibtex)
+
+### 2013
 
 * **Simple and Efficient Construction of Static Single Assignment Form** <br>
   Matthias Braun, Sebastian Buchwald, Sebastian Hack, Roland Leißa, Christoph Mallon, Andreas Zwinkau <br>
