@@ -1,5 +1,7 @@
 # Roland Leißa
 
+[![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/pid/05/10957.html)
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 📖 Publications
@@ -9,7 +11,6 @@
   [![PLDI 2026](https://img.shields.io/badge/PLDI-2026-blue)](https://pldi26.sigplan.org)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2604.09961-blue?logo=arxiv)](https://doi.org/10.48550/arXiv.2604.09961)
   [![zenodo](https://img.shields.io/badge/-10.5281%2Fzenodo.19069678-blue?logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.19069678)
-  <br><br>
 
 * **MimIrADe: Automatic Differentiation in MimIR** <br>
   Marcel Ullrich, Sebastian Hack, Roland Leißa <br>
@@ -18,7 +19,6 @@
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3708493.3712685-blue?logo=acm)](https://dl.acm.org/doi/abs/10.1145/3708493.3712685)
   [![zenodo](https://img.shields.io/badge/-10.5281/zenodo.14681109-blue?logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.14681109)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/cc/UllrichHL25.html?view=bibtex)
-  <br><br>
 
 * **MimIR: An Extensible and Type-Safe Intermediate Representation for the DSL Age** <br>
   Roland Leißa, Marcel Ullrich, Joachim Meyer, Sebastian Hack <br>
@@ -29,6 +29,27 @@
   [![zenodo](https://img.shields.io/badge/-10.5281/zenodo.19069678-blue?logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.19069678)
   [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
+
+* **Specialization through dynamic staging** <br>
+  Piotr Danilewski, Marcel Köster, Roland Leißa, Richard Membarth, Philipp Slusallek <br>
+  [![GPCE 2014](https://img.shields.io/badge/GPCE-2014-blue)](https://www.sigplan.org/OpenTOC/gpce14.html)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/dklms14.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/2658761.2658774-blue?logo=acm)](https://doi.org/10.1145/2658761.2658774)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/DanilewskiKLMS14.html?view=bibtex)
+
+* **Sierra: a SIMD extension for C++** <br>
+  Roland Leißa, Immanuel Haffner, Sebastian Hack <br>
+  [![WPMVP 2014](https://img.shields.io/badge/WPMVP-2014-blue)](https://www.sigplan.org/OpenTOC/wpmvp14.html)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lhh14.pdf)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/2568058.2568062-blue?logo=acm)](https://doi.org/10.1145/2568058.2568062)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/ppopp/LeissaHH14.html?view=bibtex)
+
+* **Target-specific refinement of multigrid codes** <br>
+  Richard Membarth, Philipp Slusallek, Marcel Köster, Roland Leißa, Sebastian Hack: <br>
+  [![WOLFHPC 2014](https://img.shields.io/badge/WOLFHPC-2014-blue)](https://www.computer.org/csdl/proceedings/wolfhpc/2014/12OmNzmclWC)
+  [![PDF](https://img.shields.io/badge/PDF-grey?logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/msklh14.pdf)
+  [![Springer](https://img.shields.io/badge/-10.1109/WOLFHPC.2014.5-blue?logo=ieee&logoSize=auto&labelColor=555)](https://doi.org/10.1109/WOLFHPC.2014.5)
+  [![dblp](https://img.shields.io/badge/dblp-grey?logo=dblp)](https://dblp.uni-trier.de/rec/conf/sc/MembarthSKLH14.html?view=bibtex)
 
 * **Simple and Efficient Construction of Static Single Assignment Form** <br>
   Matthias Braun, Sebastian Buchwald, Sebastian Hack, Roland Leißa, Christoph Mallon, Andreas Zwinkau <br>
