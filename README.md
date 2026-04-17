@@ -1,6 +1,9 @@
 # Roland Leißa
 
-[![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/pid/05/10957.html)
+[![GitHub](https://img.shields.io/badge/GitHub-leissa-blue?style=flat-square&logo=github)](https://github.com/leissa)
+[![dblp](https://img.shields.io/badge/dblp-05/10957-blue?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/pid/05/10957.html)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--2444--6782-blue?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-2444-6782)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-roland--leissa-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roland-leissa)
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
