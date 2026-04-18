@@ -175,6 +175,7 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
   [![WPMVP 2014](https://img.shields.io/badge/WPMVP-2014-blue?style=flat-square)](https://www.sigplan.org/OpenTOC/wpmvp14.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lhh14.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/2568058.2568062-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/2568058.2568062)
+  [![GitHub](https://img.shields.io/badge/GitHub-Sierra-blue?style=flat-square&logo=github)](https://sierra-lang.github.io)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/ppopp/LeissaHH14.html?view=bibtex)
 
 * **Target-specific refinement of multigrid codes** <br>
