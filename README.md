@@ -5,6 +5,10 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--2444--6782-blue?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-2444-6782)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-roland--leissa-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roland-leissa)
 
+[![Neovim](https://img.shields.io/badge/Neovim-grey?style=flat-square&logo=neovim)](https://neovim.io)
+[![C++](https://img.shields.io/badge/C%2B%2B-grey?style=flat-square&logo=cplusplus)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization)
+[![OCaml](https://img.shields.io/badge/Ocaml-grey?style=flat-square&logo=ocaml)](https://ocaml.org)
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 📖 Publications
