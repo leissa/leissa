@@ -109,6 +109,7 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
   [![OOPSLA 2018](https://img.shields.io/badge/OOPSLA-2018-blue?style=flat-square)](https://2018.splashcon.org/track/splash-2018-OOPSLA)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/lbhpmsms18.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3276489-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/3276489)
+  [![HiPEAC](https://img.shields.io/badge/%F0%9F%A5%88_HiPEAC-Best_Paper_Award-blue?style=flat-square)](https://www.hipeac.net/awards/paper)
   [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://youtu.be/pIJga3ioFBs?si=-FVfnZ3YCCrWlG7y)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaBHPMSMS18.html?view=bibtex)
 
