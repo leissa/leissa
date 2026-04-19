@@ -5,6 +5,9 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--2444--6782-blue?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-2444-6782)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-roland--leissa-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roland-leissa)
 
+I am Professor for Programming Languages and Compilers at the University of Goettingen, Germany.
+I work on programming languages and compilers, with a focus on intermediate representations, type systems, partial evaluation, and high-performance systems.
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 📖 Publications
