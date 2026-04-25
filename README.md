@@ -10,6 +10,8 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leissa)](https://github.com/anuraghazra/github-readme-stats)
+
 ## 📖 Publications
 
 ### 2026
