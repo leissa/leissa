@@ -8,9 +8,9 @@
 I am Professor for Programming Languages and Compilers at the University of Goettingen, Germany.
 I work on programming languages and compilers, with a focus on intermediate representations, type systems, partial evaluation, and high-performance systems.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leissa)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=leissa)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 📖 Publications
 
