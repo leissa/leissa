@@ -23,6 +23,7 @@ I work on programming languages and compilers, with a focus on intermediate repr
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3808286-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/3808286)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2604.09961-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2604.09961)
   [![zenodo](https://img.shields.io/badge/-10.5281%2Fzenodo.19069678-blue?style=flat-square&logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.19069678)
+  [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://www.youtube.com/live/v29wqpkiePo?si=m0vwAFvUJNNRVnH4&t=10785)
 
 ### 2025
 
