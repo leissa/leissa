@@ -8,7 +8,7 @@
 I am Professor for Programming Languages and Compilers at the University of Goettingen, Germany.
 I work on programming languages and compilers, with a focus on intermediate representations, type systems, partial evaluation, and high-performance systems.
 
-[![Anurag's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=leissa)](https://github.com/anuraghazra/github-readme-stats)
 
@@ -16,47 +16,47 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2026
 
-* **SSA without Dominance for Higher-Order Programs** <br>
+- **SSA without Dominance for Higher-Order Programs** <br>
   Roland Leißa, Johannes Griebler <br>
   [![PLDI 2026](https://img.shields.io/badge/PLDI-2026-blue?style=flat-square)](https://pldi26.sigplan.org)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/lg26.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3808286-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/3808286)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2604.09961-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2604.09961)
-  [![zenodo](https://img.shields.io/badge/-10.5281%2Fzenodo.19069678-blue?style=flat-square&logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.19069678)
+  [![zenodo](https://img.shields.io/badge/-10.5281/zenodo.19069678-blue?style=flat-square&logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.19069678)
   [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://www.youtube.com/watch?v=Xo5N0SGkuHg)
-  [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/cc/UllrichHL25.html?view=bibtex)
+  [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaG26.html?view=bibtex)
 
 ### 2025
 
-* **MimIrADe: Automatic Differentiation in MimIR** <br>
+- **MimIrADe: Automatic Differentiation in MimIR** <br>
   Marcel Ullrich, Sebastian Hack, Roland Leißa <br>
   [![CC 2025](https://img.shields.io/badge/CC-2025-blue?style=flat-square)](https://conf.researchr.org/home/CC-2025)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/uhl25.pdf)
-  [![ACM](https://img.shields.io/badge/ACM-10.1145/3708493.3712685-blue?style=flat-square&logo=acm)](https://dl.acm.org/doi/abs/10.1145/3708493.3712685)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/3708493.3712685-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/3708493.3712685)
   [![zenodo](https://img.shields.io/badge/-10.5281/zenodo.14681109-blue?style=flat-square&logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.14681109)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/cc/UllrichHL25.html?view=bibtex)
 
-* **MimIR: An Extensible and Type-Safe Intermediate Representation for the DSL Age** <br>
+- **MimIR: An Extensible and Type-Safe Intermediate Representation for the DSL Age** <br>
   Roland Leißa, Marcel Ullrich, Joachim Meyer, Sebastian Hack <br>
   [![POPL 2025](https://img.shields.io/badge/POPL-2025-blue?style=flat-square)](https://conf.researchr.org/home/POPL-2025)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/lumh25.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/3704840-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/3704840)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2411.07443-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2411.07443)
-  [![zenodo](https://img.shields.io/badge/-10.5281/zenodo.19069678-blue?style=flat-square&logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.19069678)
+  [![zenodo](https://img.shields.io/badge/-10.5281/zenodo.13935445-blue?style=flat-square&logo=zenodo&logoColor=white&labelColor=555&logoSize=auto)](https://doi.org/10.5281/zenodo.13935445)
   [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
 ### 2023
 
-* **Preparing Reproducible Scientific Artifacts using Docker** <br>
+- **Preparing Reproducible Scientific Artifacts using Docker** <br>
   Michael Canesche, Roland Leißa, Fernando Magno Quintão Pereira <br>
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/clp23.pdf)
-  [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2604.09961-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2308.14122)
+  [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2308.14122-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2308.14122)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/corr/abs-2308-14122.html?view=bibtex)
 
 ### 2022
 
-* **AnySeq/GPU: a novel approach for faster sequence alignment on GPUs** <br>
+- **AnySeq/GPU: a novel approach for faster sequence alignment on GPUs** <br>
   André Müller, Bertil Schmidt, Richard Membarth, Roland Leißa, Sebastian Hack <br>
   [![ICS 2022](https://img.shields.io/badge/ICS-2022-blue?style=flat-square)](https://ics2022.github.io)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/msmlh22.pdf)
@@ -67,15 +67,15 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2021
 
-* **tinyMD: Mapping molecular dynamics simulations to heterogeneous hardware using partial evaluation** <br>
-Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Roland Leißa, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Harald Köstler <br>
+- **tinyMD: Mapping molecular dynamics simulations to heterogeneous hardware using partial evaluation** <br>
+  Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Roland Leißa, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Harald Köstler <br>
   [![J. Comput. Sci.](https://img.shields.io/badge/J._Comput._Sci-2021-blue?style=flat-square)](https://www.sciencedirect.com/journal/journal-of-computational-science/vol/54/suppl/C)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/mseelhpmk21.pdf)
   [![Elsevier](https://img.shields.io/badge/Elsevier-10.1016/j.jocs.2021.101425-blue?style=flat-square&logo=elsevier&logoColor=white)](https://doi.org/10.1016/j.jocs.2021.101425)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2009.07400-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2009.07400)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/jocs/MachadoSEELHPMK21.html?view=bibtex)
 
-* **FLOWER: A comprehensive dataflow compiler for high-level synthesis** <br>
+- **FLOWER: A comprehensive dataflow compiler for high-level synthesis** <br>
   Puya Amiri, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack <br>
   [![FPT 2021](https://img.shields.io/badge/FPT-2021-blue?style=flat-square)](https://easychair.org/cfp/fpt21)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/apmslh21.pdf)
@@ -85,15 +85,15 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
 
 ### 2020
 
-* **AnyHLS: High-Level Synthesis With Partial Evaluation** <br>
+- **AnyHLS: High-Level Synthesis With Partial Evaluation** <br>
   M. Akif Özkan, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack, Jürgen Teich, Frank Hannig <br>
-  [![TACD 2020](https://img.shields.io/badge/TACD-2020-blue?style=flat-square)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
+  [![TCAD 2020](https://img.shields.io/badge/TCAD-2020-blue?style=flat-square)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/opmslhth20.pdf)
   [![IEEE](https://img.shields.io/badge/-10.1109/TCAD.2020.3012172-blue?style=flat-square&logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/TCAD.2020.3012172)
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2002.05796-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2002.05796)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/tcad/OzkanPMSLHTH20.html?view=bibtex)
 
-* **AnySeq: A High Performance Sequence Alignment Library based on Partial Evaluation** <br>
+- **AnySeq: A High Performance Sequence Alignment Library based on Partial Evaluation** <br>
   André Müller, Bertil Schmidt, Andreas Hildebrandt, Richard Membarth, Roland Leißa, Matthis Kruse, Sebastian Hack <br>
   [![IPDPS 2020](https://img.shields.io/badge/IPDPS-2020-blue?style=flat-square)](https://www.ipdps.org/ipdps2020/2020-.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/mshmlkh20.pdf)
@@ -103,16 +103,16 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
 
 ### 2019
 
-* **Rodent: generating renderers without writing a generator** <br>
+- **Rodent: generating renderers without writing a generator** <br>
   Arsène Pérard-Gayot, Richard Membarth, Roland Leißa, Sebastian Hack, Philipp Slusallek <br>
-  [![SIGGRAPH 2019](https://img.shields.io/badge/SIGGRAPH-2019-blue?style=flat-square)](https://history.siggraph.org/publication/acm-transactions-on-graphics-proceedings-of-acm-siggraph-2012-july-2012-vol-31-no-4)
+  [![SIGGRAPH 2019](https://img.shields.io/badge/SIGGRAPH-2019-blue?style=flat-square)](https://dl.acm.org/toc/tog/2019/38/4)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/pmlhs19.pdf)
-  [![ACM](https://img.shields.io/badge/ACM-0.1145/3306346.3322955-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/3306346.3322955)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/3306346.3322955-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/3306346.3322955)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/tog/Perard-GayotMLH19.html?view=bibtex)
 
 ### 2018
 
-* **AnyDSL: a partial evaluation framework for programming high-performance libraries** <br>
+- **AnyDSL: a partial evaluation framework for programming high-performance libraries** <br>
   Roland Leißa, Klaas Boesche, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, André Müller, Bertil Schmidt <br>
   [![OOPSLA 2018](https://img.shields.io/badge/OOPSLA-2018-blue?style=flat-square)](https://2018.splashcon.org/track/splash-2018-OOPSLA)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/lbhpmsms18.pdf)
@@ -121,7 +121,7 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
   [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://youtu.be/pIJga3ioFBs?si=-FVfnZ3YCCrWlG7y)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaBHPMSMS18.html?view=bibtex)
 
-* **A Data Layout Transformation for Vectorizing Compilers** <br>
+- **A Data Layout Transformation for Vectorizing Compilers** <br>
   Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Simon Moll, Roland Leißa, Sebastian Hack <br>
   [![WPMVP 2018](https://img.shields.io/badge/WPMVP-2018-blue?style=flat-square)](https://ppopp18.sigplan.org/track/WPMVP2018)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/pmsmlh18.pdf)
@@ -130,14 +130,14 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
 
 ### 2017
 
-* **Language Support for Programming High-Performance Code** <br>
+- **Language Support for Programming High-Performance Code** <br>
   Roland Leißa <br>
   [![PhD 2017](https://img.shields.io/badge/PhD-2017-blue?style=flat-square)](https://compilers.cs.uni-saarland.de/people/leissa)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/l17.pdf)
-  [![UdS](https://img.shields.io/badge/%E2%8C%82_UdS-10.22028/D291--27128-blue?style=flat-square)](https://dx.doi.org/10.22028/D291-27128)
+  [![UdS](https://img.shields.io/badge/%E2%8C%82_UdS-10.22028/D291--27128-blue?style=flat-square)](https://doi.org/10.22028/D291-27128)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/phd/dnb/Leissa17.html?view=bibtex)
 
-* **RaTrace: simple and efficient abstractions for BVH ray traversal algorithms** <br>
+- **RaTrace: simple and efficient abstractions for BVH ray traversal algorithms** <br>
   Arsène Pérard-Gayot, Martin Weier, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack <br>
   [![GPCE 2017](https://img.shields.io/badge/GPCE-2017-blue?style=flat-square)](https://conf.researchr.org/home/gpce-2017)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/pwmslh17.pdf)
@@ -146,7 +146,7 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
 
 ### 2015
 
-* **A graph-based higher-order intermediate representation** <br>
+- **A graph-based higher-order intermediate representation** <br>
   Roland Leißa, Marcel Köster, Sebastian Hack <br>
   [![CGO 2015](https://img.shields.io/badge/CGO-2015-blue?style=flat-square)](https://cgo-conference.github.io/cgo2015)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/lkh15.pdf)
@@ -155,31 +155,31 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
   [![GitHub](https://img.shields.io/badge/GitHub-artifact-blue?style=flat-square&logo=github)](https://github.com/AnyDSL/benchmarks-impala/tree/cgo15)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/cgo/LeissaKH15.html?view=bibtex)
 
-* **Shallow embedding of DSLs via online partial evaluation** <br>
+- **Shallow embedding of DSLs via online partial evaluation** <br>
   Roland Leißa, Klaas Boesche, Sebastian Hack, Richard Membarth, Philipp Slusallek <br>
   [![GPCE 2015](https://img.shields.io/badge/GPCE-2015-blue?style=flat-square)](https://conf.researchr.org/home/gpce2015)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/lbhms15.pdf)
-  [![ACM](https://img.shields.io/badge/ACM-10.1109/CGO.2015.7054200-blue?style=flat-square&logo=acm)](https://dblp.uni-trier.de/rec/conf/gpce/LeissaBHMS15.html?view=bibtex)
+  [![ACM](https://img.shields.io/badge/ACM-10.1145/2814204.2814208-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/2814204.2814208)
   [![Award](https://img.shields.io/badge/%F0%9F%A5%88_Award-Best_Paper-blue?style=flat-square)](https://graphics.cg.uni-saarland.de/publications/leissa-2015-gpce-shallow-embedding.html)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/LeissaBHMS15.html?view=bibtex)
 
 ### 2014
 
-* **Code Refinement of Stencil Codes** <br>
+- **Code Refinement of Stencil Codes** <br>
   Marcel Köster, Roland Leißa, Sebastian Hack, Richard Membarth, Philipp Slusallek <br>
   [![PPL 2014](https://img.shields.io/badge/PPL-2014-blue?style=flat-square)](https://www.worldscientific.com/toc/ppl/24/03)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/klhms14.pdf)
   [![World Scientific](https://img.shields.io/badge/World_Scientific-10.1142/S0129626414410035-blue?style=flat-square)](https://doi.org/10.1142/S0129626414410035)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/ppl/KosterLHMS14.html?view=bibtex)
 
-* **Specialization through dynamic staging** <br>
+- **Specialization through dynamic staging** <br>
   Piotr Danilewski, Marcel Köster, Roland Leißa, Richard Membarth, Philipp Slusallek <br>
   [![GPCE 2014](https://img.shields.io/badge/GPCE-2014-blue?style=flat-square)](https://www.sigplan.org/OpenTOC/gpce14.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/dklms14.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/2658761.2658774-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/2658761.2658774)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/gpce/DanilewskiKLMS14.html?view=bibtex)
 
-* **Sierra: a SIMD extension for C++** <br>
+- **Sierra: a SIMD extension for C++** <br>
   Roland Leißa, Immanuel Haffner, Sebastian Hack <br>
   [![WPMVP 2014](https://img.shields.io/badge/WPMVP-2014-blue?style=flat-square)](https://www.sigplan.org/OpenTOC/wpmvp14.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/lhh14.pdf)
@@ -187,16 +187,16 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
   [![GitHub](https://img.shields.io/badge/GitHub-Sierra-blue?style=flat-square&logo=github)](https://sierra-lang.github.io)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/ppopp/LeissaHH14.html?view=bibtex)
 
-* **Target-specific refinement of multigrid codes** <br>
-  Richard Membarth, Philipp Slusallek, Marcel Köster, Roland Leißa, Sebastian Hack: <br>
+- **Target-specific refinement of multigrid codes** <br>
+  Richard Membarth, Philipp Slusallek, Marcel Köster, Roland Leißa, Sebastian Hack <br>
   [![WOLFHPC 2014](https://img.shields.io/badge/WOLFHPC-2014-blue?style=flat-square)](https://www.computer.org/csdl/proceedings/wolfhpc/2014/12OmNzmclWC)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/msklh14.pdf)
-  [![Springer](https://img.shields.io/badge/-10.1109/WOLFHPC.2014.5-blue?style=flat-square&logo=ieee&logoSize=auto&labelColor=555)](https://doi.org/10.1109/WOLFHPC.2014.5)
+  [![IEEE](https://img.shields.io/badge/-10.1109/WOLFHPC.2014.5-blue?style=flat-square&logo=ieee&labelColor=555&logoSize=auto)](https://doi.org/10.1109/WOLFHPC.2014.5)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/sc/MembarthSKLH14.html?view=bibtex)
 
 ### 2013
 
-* **Simple and Efficient Construction of Static Single Assignment Form** <br>
+- **Simple and Efficient Construction of Static Single Assignment Form** <br>
   Matthias Braun, Sebastian Buchwald, Sebastian Hack, Roland Leißa, Christoph Mallon, Andreas Zwinkau <br>
   [![CC 2013](https://img.shields.io/badge/CC-2013-blue?style=flat-square)](https://www.etaps.org/2013/cc.html)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/bbhlmz13.pdf)
@@ -207,9 +207,9 @@ Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Rolan
 
 ### 2012
 
-* **Extending a C-like language for portable SIMD programming** <br>
+- **Extending a C-like language for portable SIMD programming** <br>
   Roland Leißa, Sebastian Hack, Ingo Wald <br>
-  [![PPoPP 2012](https://img.shields.io/badge/PPoPP-2012-blue?style=flat-square)](https://ppopp22.sigplan.org/track/PPoPP-2022-main/pdf/conference)
+  [![PPoPP 2012](https://img.shields.io/badge/PPoPP-2012-blue?style=flat-square)](https://dl.acm.org/doi/proceedings/10.1145/2145816)
   [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/lhw12.pdf)
   [![ACM](https://img.shields.io/badge/ACM-10.1145/2145816.2145825-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/2145816.2145825)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/ppopp/LeissaHW12.html?view=bibtex)

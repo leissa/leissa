@@ -45,8 +45,11 @@ Each entry is a bullet with `<br>`-terminated metadata lines followed by indente
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/...html?view=bibtex)
 ```
 
-- Badge order in use: venue → PDF → publisher DOI (ACM / IEEE / Springer / Elsevier / World Scientific / UdS, each with its own `logo=`) → arXiv → Zenodo → award → GitHub artifact → YouTube → **dblp last**.
-- Include only the badges that actually exist for a paper; copy the exact shields.io style of a neighbouring entry rather than inventing a new one (`style=flat-square` throughout; grey badges for PDF/YouTube/dblp, blue for venues and DOIs). Do not switch to a different linking style unless the whole file is being normalized consistently.
-- Publisher badges spell the DOI out in the badge label; arXiv and Zenodo badges use the `10.48550/...` and `10.5281/zenodo....` DOI forms linked through `doi.org`.
-- dblp badge URLs must be the record for *this* paper (`?view=bibtex`). These are easy to leave stale when copy-pasting a previous entry — check the author/venue in the dblp key.
+- Badge order in use: venue → PDF → publisher DOI → arXiv → Zenodo → award → GitHub artifact → YouTube → **dblp last**.
+- Include only the badges that actually exist for a paper; copy the exact shields.io style of a neighbouring entry rather than inventing a new one. `style=flat-square` throughout; grey badges for PDF/YouTube/dblp, blue for venues and DOIs.
+- Two publisher-badge idioms are in use, and each publisher sticks to one: **named label** (`ACM-<doi>`, `Springer-<doi>`, `Elsevier-<doi>`, `World_Scientific-<doi>`, `%E2%8C%82_UdS-<doi>`) and **logo-only label** for IEEE and Zenodo, where the left segment is empty and carries just the logo — `badge/-<doi>-blue?style=flat-square&logo=ieee&labelColor=555&logoSize=auto`. Keep the parameter order as written; the `[![IEEE]`/`[![zenodo]` alt text is what names the publisher, so it must match the DOI prefix (`10.1109` → IEEE, `10.1007` → Springer, `10.1145` → ACM, `10.5281` → Zenodo).
+- Spell the DOI out in the badge label and use the **same** DOI in the label and the href — a label saying one DOI while the link goes somewhere else is the single most common defect here. Write `-` in DOIs as `--` (shields escapes it) and a literal `/`, not `%2F`.
+- All DOI links go through `https://doi.org/<doi>` — not `dx.doi.org`, not `dl.acm.org/doi/abs/...`.
+- dblp badge URLs must be the record for *this* paper (`?view=bibtex`). Do not hand-guess the key from author initials; dblp's own numbering and homonym digits make that unreliable. Fetch <https://dblp.org/pid/05/10957.xml> — it lists the authoritative `key` and `ee` (DOI) for every publication, and is the fastest way to verify a whole batch of entries.
 - Awards are badges too, with an emoji in the label (e.g. `%F0%9F%A5%88_HiPEAC-Best_Paper_Award`).
+- Venue badges link to the venue for *that* year (conference site, or the publisher's volume/proceedings TOC). Copy-pasting an entry tends to leave a link pointing at the wrong year's site.
