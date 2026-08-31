@@ -1,0 +1,49 @@
+# Renders the GitHub stats cards shown in README.md into SVG files committed to
+# this repository, so the README never depends on a third-party badge service.
+#
+# Requires the repository secret METRICS_TOKEN: a classic Personal Access Token
+# with the `repo` and `read:user` scopes (`repo` is what makes private
+# repositories count towards the statistics).
+name: metrics
+
+on:
+  schedule:
+    - cron: "0 4 * * 1" # Mondays, 04:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/metrics.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Statistics card
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: leissa
+          filename: github-metrics.svg
+          base: header, repositories, metadata
+          repositories_affiliations: owner, collaborator, organization_member
+          config_timezone: Europe/Berlin
+          output_condition: data-changed
+          committer_message: "metrics: update ${filename}"
+
+      - name: Top languages card
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: leissa
+          filename: github-metrics-languages.svg
+          base: ""
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: bytes-size, percentage
+          config_timezone: Europe/Berlin
+          output_condition: data-changed
+          committer_message: "metrics: update ${filename}"

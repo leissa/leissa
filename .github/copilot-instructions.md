@@ -11,6 +11,7 @@ Content surfaces:
 - `README.md`: bio and social badges, then the canonical publication index under `## 📖 Publications`, one `###` section per year, newest first.
 - `pdf/`: the paper PDFs linked from the README.
 - `images/`: photos and logos, *not* used by `README.md` — see below.
+- `github-metrics.svg`, `github-metrics-languages.svg`: the two GitHub stats cards in the bio, **generated** by `.github/workflows/metrics.yml` and committed by it. Never hand-edit them, and do not "fix" them if the badges 404 — that only means the workflow has not run yet (trigger it manually) or the `METRICS_TOKEN` secret is missing or expired.
 
 ## Build, test, and lint commands
 
