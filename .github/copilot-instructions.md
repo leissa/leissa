@@ -8,13 +8,26 @@ This file is the single source of truth for AI coding agents working here. `CLAU
 
 Content surfaces:
 
-- `README.md`: bio and social badges, then the canonical publication index under `## 📖 Publications`, one `###` section per year, newest first.
-- `pdf/`: the paper PDFs linked from the README.
-- `images/`: photos and logos, *not* used by `README.md` — see below.
+- `publications.yaml`: **the source of truth for every publication.** One entry per paper; its header comment documents the fields.
+- `tools/gen.py`: renders `publications.yaml` into the `## 📖 Publications` section of `README.md`, into `leissa.bib`, and into `CITATION.cff`.
+- `README.md`: hand-written head (portrait, logo, social badges, bio, stats card), then the *generated* publication index between the `<!-- BEGIN PUBLICATIONS -->` / `<!-- END PUBLICATIONS -->` markers.
+- `leissa.bib`, `CITATION.cff`: generated; `CITATION.cff` drives GitHub's “Cite this repository” button.
+- `pdf/`: the paper PDFs linked from the README, one per `publications.yaml` entry.
+- `images/`: photos and logos — the portrait and the theme-aware logo in the README head, plus assets for the sibling site, see below.
 
 ## Build, test, and lint commands
 
-There are none: no source tree, package manifest, build system, lint configuration, or test suite. Changes are content edits. "Verifying" a change means reading the Markdown and confirming every linked file actually exists in the repo.
+```sh
+tools/gen.py          # regenerate README.md, leissa.bib (only with --bib) and CITATION.cff
+tools/gen.py --check  # fail if the generated files are out of sync (what CI runs)
+tools/gen.py --bib    # additionally refetch leissa.bib from doi.org (needs network)
+```
+
+`tools/gen.py` needs PyYAML and nothing else. It validates as it goes: every entry needs its `pdf/<id>.pdf`, every `pdf/*.pdf` needs an entry, DOI prefixes must be known, `arxiv`/`zenodo` must carry the right DOI prefix.
+
+Two GitHub Actions workflows guard the result: `check.yml` runs `--check` on every push and pull request, `links.yml` runs [lychee](https://lychee.cli.rs) weekly over `README.md`, `publications.yaml`, `leissa.bib` and `CITATION.cff` (configured in `lychee.toml`) because a dead link here fails *silently* — GitHub renders a broken badge, not an error.
+
+**Never hand-edit anything between the publication markers in `README.md`, nor `leissa.bib` or `CITATION.cff`.** Edit `publications.yaml` and re-run `tools/gen.py`; CI rejects the drift otherwise. Badge *rendering* — shields escaping, publisher logos, badge order — lives in `tools/gen.py`, so a new publisher or badge kind is a change to that file, not to the Markdown.
 
 ## Architecture: assets are addressed by absolute raw URLs
 
@@ -26,30 +39,24 @@ https://raw.githubusercontent.com/leissa/leissa/main/pdf/<slug>.pdf
 
 Consequences:
 
-- Content changes are coupled across two places — the file in `pdf/` and its `README.md` entry. Change one without the other and the badge 404s silently (GitHub renders a broken badge, not an error), or the publication disappears from the index.
-- The URLs are pinned to `main`, so an asset only becomes reachable once pushed to `main`.
+- The URLs are pinned to `main`, so an asset only becomes reachable once pushed to `main`. A freshly added PDF or image 404s until then — including in the weekly link check.
 - `images/` is an asset host for the **sibling PLaC group website** in `../` (`/home/roland/plac/website`, a separate Makefile-driven project whose `pages/` embed `https://raw.githubusercontent.com/leissa/leissa/main/images/*.jpg`). Renaming or deleting anything in `images/` breaks that site, and grepping this repo alone will not reveal the reference.
+- That sibling project's `build.sh` also slices everything after `## 📖 Publications` out of *this* `README.md` and runs it through pandoc into its `publications.html`. So the generated section has to stay pandoc-safe: raw `<a id="…">` anchors (pandoc renumbers headings, so the year headings alone would not be linkable there) and `<details>` blocks with blank lines around their Markdown content.
 
 ## Conventions for publication entries
 
-Keep sections year-based and newest-first. PDF slugs are author initials plus a two-digit year, in author order: `lg26.pdf` = Leißa, Griebler 2026; `lumh25.pdf` = Leißa, Ullrich, Meyer, Hack 2025; `bbhlmz13.pdf` = Braun, Buchwald, Hack, Leißa, Mallon, Zwinkau 2013.
+Sections are year-based and newest-first; within a year, `publications.yaml` order is preserved. Years before `COLLAPSE_BEFORE` (see `tools/gen.py`) are folded into a `<details>` block, and entries flagged `selected` are also listed compactly under `### ⭐ Selected`.
 
-Each entry is a bullet with `<br>`-terminated metadata lines followed by indented badge links:
+`id` — which is also the PDF slug — is author initials plus a two-digit year, in author order: `lg26` = Leißa, Griebler 2026; `lumh25` = Leißa, Ullrich, Meyer, Hack 2025; `bbhlmz13` = Braun, Buchwald, Hack, Leißa, Mallon, Zwinkau 2013.
 
-```markdown
-* **Paper Title** <br>
-  First Author, Second Author, Roland Leißa <br>
-  [![VENUE 20XX](https://img.shields.io/badge/VENUE-20XX-blue?style=flat-square)](https://venue.site)
-  [![PDF](https://img.shields.io/badge/PDF-grey?style=flat-square&logo=readthedocs)](https://raw.githubusercontent.com/leissa/leissa/main/pdf/slug.pdf)
-  [![ACM](https://img.shields.io/badge/ACM-10.1145/XXXXXXX-blue?style=flat-square&logo=acm)](https://doi.org/10.1145/XXXXXXX)
-  [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/...html?view=bibtex)
-```
+Adding a paper is: drop `pdf/<id>.pdf` in place, add the entry to `publications.yaml`, run `tools/gen.py --bib`, commit all of it together.
 
-- Badge order in use: venue → PDF → publisher DOI → arXiv → Zenodo → award → GitHub artifact → YouTube → **dblp last**.
-- Include only the badges that actually exist for a paper; copy the exact shields.io style of a neighbouring entry rather than inventing a new one. `style=flat-square` throughout; grey badges for PDF/YouTube/dblp, blue for venues and DOIs.
-- Two publisher-badge idioms are in use, and each publisher sticks to one: **named label** (`ACM-<doi>`, `Springer-<doi>`, `Elsevier-<doi>`, `World_Scientific-<doi>`, `%E2%8C%82_UdS-<doi>`) and **logo-only label** for IEEE and Zenodo, where the left segment is empty and carries just the logo — `badge/-<doi>-blue?style=flat-square&logo=ieee&labelColor=555&logoSize=auto`. Keep the parameter order as written; the `[![IEEE]`/`[![zenodo]` alt text is what names the publisher, so it must match the DOI prefix (`10.1109` → IEEE, `10.1007` → Springer, `10.1145` → ACM, `10.5281` → Zenodo).
-- Spell the DOI out in the badge label and use the **same** DOI in the label and the href — a label saying one DOI while the link goes somewhere else is the single most common defect here. Write `-` in DOIs as `--` (shields escapes it) and a literal `/`, not `%2F`.
+The rules `tools/gen.py` encodes, which matter when changing it:
+
+- Badge order: venue → PDF → publisher DOI → arXiv → Zenodo → award → GitHub artifact → YouTube → **dblp last**. `style=flat-square` throughout; grey badges for PDF/YouTube/dblp, blue for venues and DOIs.
+- Two publisher-badge idioms, one per publisher: **named label** (`ACM-<doi>`, `Springer-<doi>`, `Elsevier-<doi>`, `World_Scientific-<doi>`, `%E2%8C%82_UdS-<doi>`) and **logo-only label** for IEEE and Zenodo, where the left segment is empty and carries just the logo — `badge/-<doi>-blue?style=flat-square&logo=ieee&labelColor=555&logoSize=auto`. The alt text names the publisher and must match the DOI prefix; the `PUBLISHERS` table maps prefix → (alt, label, parameters).
+- A DOI is written **once** in `publications.yaml` and used for both the badge label and the href, so the two cannot drift apart — this used to be the most common defect here. shields escaping (`-` → `--`, `_` → `__`, space → `_`, literal `/`, never `%2F`) is `esc()`'s job.
 - All DOI links go through `https://doi.org/<doi>` — not `dx.doi.org`, not `dl.acm.org/doi/abs/...`.
-- dblp badge URLs must be the record for *this* paper (`?view=bibtex`). Do not hand-guess the key from author initials; dblp's own numbering and homonym digits make that unreliable. Fetch <https://dblp.org/pid/05/10957.xml> — it lists the authoritative `key` and `ee` (DOI) for every publication, and is the fastest way to verify a whole batch of entries.
-- Awards are badges too, with an emoji in the label (e.g. `%F0%9F%A5%88_HiPEAC-Best_Paper_Award`).
-- Venue badges link to the venue for *that* year (conference site, or the publisher's volume/proceedings TOC). Copy-pasting an entry tends to leave a link pointing at the wrong year's site.
+- `dblp` is the record key for *this* paper, i.e. what follows `/rec/` in the record URL. Do not hand-guess it from author initials; dblp's own numbering and homonym digits make that unreliable. <https://dblp.org/pid/05/10957.xml> lists the authoritative `key` and `ee` (DOI) for every publication — the fastest way to verify a batch. (It sits behind a bot challenge, so a browser may be needed.)
+- Venue badges link to the venue for *that* year (conference site, or the publisher's volume/proceedings TOC). Copying a neighbouring entry tends to leave a link pointing at the wrong year's site.
+- `leissa.bib` records come from doi.org content negotiation, but authors and titles are overridden from `publications.yaml`: publisher metadata mangles non-ASCII names (IEEE turns *Leißa* into *Leiba*/*Leisa*).

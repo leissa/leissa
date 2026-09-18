@@ -1,0 +1,267 @@
+# Publication database -- the single source of truth for the `## Publications`
+# section of README.md and for leissa.bib.
+#
+# After editing, regenerate with:   tools/gen.py
+# (and `tools/gen.py --bib` to also refresh leissa.bib from doi.org).
+#
+# Fields
+#   id          pdf/<id>.pdf; author initials + two-digit year, in author order
+#   title       exactly as published
+#   authors     full author list, in publication order
+#   year        publication year (groups the entry into a `###` section)
+#   selected    show in the "Selected" list at the top of the section
+#   cite        the paper GitHub offers under "Cite this repository" (exactly one)
+#   venue       venue badge label (omit for preprint-only entries)
+#   venue_year  right-hand side of the venue badge (defaults to `year`)
+#   venue_url   the venue *of that year*: conference site or proceedings TOC
+#   doi         publisher DOI; the publisher badge is derived from its prefix
+#   arxiv       arXiv DOI (10.48550/...)
+#   zenodo      artifact DOI (10.5281/...)
+#   awards      [{name, text, url}] -- `name` may carry a leading emoji
+#   repos       [{label, url}] -- code/artifact links
+#   youtube     talk recording
+#   dblp        dblp record key, i.e. the part after `/rec/` in the record URL
+#   bibtype     BibTeX entry type, when doi.org guesses wrong (e.g. phdthesis)
+#
+# Badge *rendering* (shields escaping, publisher logos, badge order) lives in
+# tools/gen.py -- never hand-edit badges in README.md, they get overwritten.
+
+- id: "lg26"
+  title: "SSA without Dominance for Higher-Order Programs"
+  authors: "Roland Leißa, Johannes Griebler"
+  year: 2026
+  selected: true
+  venue: "PLDI"
+  venue_url: "https://pldi26.sigplan.org"
+  doi: "10.1145/3808286"
+  arxiv: "10.48550/arXiv.2604.09961"
+  zenodo: "10.5281/zenodo.19069678"
+  youtube: "https://www.youtube.com/watch?v=Xo5N0SGkuHg"
+  dblp: "journals/pacmpl/LeissaG26"
+
+- id: "uhl25"
+  title: "MimIrADe: Automatic Differentiation in MimIR"
+  authors: "Marcel Ullrich, Sebastian Hack, Roland Leißa"
+  year: 2025
+  venue: "CC"
+  venue_url: "https://conf.researchr.org/home/CC-2025"
+  doi: "10.1145/3708493.3712685"
+  zenodo: "10.5281/zenodo.14681109"
+  dblp: "conf/cc/UllrichHL25"
+
+- id: "lumh25"
+  title: "MimIR: An Extensible and Type-Safe Intermediate Representation for the DSL Age"
+  authors: "Roland Leißa, Marcel Ullrich, Joachim Meyer, Sebastian Hack"
+  year: 2025
+  selected: true
+  venue: "POPL"
+  venue_url: "https://conf.researchr.org/home/POPL-2025"
+  cite: true
+  doi: "10.1145/3704840"
+  arxiv: "10.48550/arXiv.2411.07443"
+  zenodo: "10.5281/zenodo.13935445"
+  youtube: "https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R"
+  dblp: "journals/pacmpl/LeissaUMH25"
+
+- id: "clp23"
+  title: "Preparing Reproducible Scientific Artifacts using Docker"
+  authors: "Michael Canesche, Roland Leißa, Fernando Magno Quintão Pereira"
+  year: 2023
+  arxiv: "10.48550/arXiv.2308.14122"
+  dblp: "journals/corr/abs-2308-14122"
+
+- id: "msmlh22"
+  title: "AnySeq/GPU: a novel approach for faster sequence alignment on GPUs"
+  authors: "André Müller, Bertil Schmidt, Richard Membarth, Roland Leißa, Sebastian Hack"
+  year: 2022
+  venue: "ICS"
+  venue_url: "https://ics2022.github.io"
+  doi: "10.1145/3524059.3532376"
+  arxiv: "10.48550/arXiv.2205.07610"
+  youtube: "https://youtu.be/J-QTYowR0zk?si=Y6NtyOcZFmNJ9y5W"
+  dblp: "conf/ics/MullerSMLH22"
+
+- id: "mseelhpmk21"
+  title: "tinyMD: Mapping molecular dynamics simulations to heterogeneous hardware using partial evaluation"
+  authors: "Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Roland Leißa, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Harald Köstler"
+  year: 2021
+  venue: "J. Comput. Sci"
+  venue_url: "https://www.sciencedirect.com/journal/journal-of-computational-science/vol/54/suppl/C"
+  doi: "10.1016/j.jocs.2021.101425"
+  arxiv: "10.48550/arXiv.2009.07400"
+  dblp: "journals/jocs/MachadoSEELHPMK21"
+
+- id: "apmslh21"
+  title: "FLOWER: A comprehensive dataflow compiler for high-level synthesis"
+  authors: "Puya Amiri, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack"
+  year: 2021
+  venue: "FPT"
+  venue_url: "https://easychair.org/cfp/fpt21"
+  doi: "10.1109/ICFPT52863.2021.9609930"
+  arxiv: "10.48550/arXiv.2112.07789"
+  dblp: "conf/fpt/AmiriPMSLH21"
+
+- id: "opmslhth20"
+  title: "AnyHLS: High-Level Synthesis With Partial Evaluation"
+  authors: "M. Akif Özkan, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack, Jürgen Teich, Frank Hannig"
+  year: 2020
+  venue: "TCAD"
+  venue_url: "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9244237&punumber=43"
+  doi: "10.1109/TCAD.2020.3012172"
+  arxiv: "10.48550/arXiv.2002.05796"
+  dblp: "journals/tcad/OzkanPMSLHTH20"
+
+- id: "mshmlkh20"
+  title: "AnySeq: A High Performance Sequence Alignment Library based on Partial Evaluation"
+  authors: "André Müller, Bertil Schmidt, Andreas Hildebrandt, Richard Membarth, Roland Leißa, Matthis Kruse, Sebastian Hack"
+  year: 2020
+  venue: "IPDPS"
+  venue_url: "https://www.ipdps.org/ipdps2020/2020-.html"
+  doi: "10.1109/IPDPS47924.2020.00109"
+  arxiv: "10.48550/arXiv.2002.04561"
+  dblp: "conf/ipps/MullerS0MLKH20"
+
+- id: "pmlhs19"
+  title: "Rodent: generating renderers without writing a generator"
+  authors: "Arsène Pérard-Gayot, Richard Membarth, Roland Leißa, Sebastian Hack, Philipp Slusallek"
+  year: 2019
+  venue: "SIGGRAPH"
+  venue_url: "https://dl.acm.org/toc/tog/2019/38/4"
+  doi: "10.1145/3306346.3322955"
+  dblp: "journals/tog/Perard-GayotMLH19"
+
+- id: "lbhpmsms18"
+  title: "AnyDSL: a partial evaluation framework for programming high-performance libraries"
+  authors: "Roland Leißa, Klaas Boesche, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, André Müller, Bertil Schmidt"
+  year: 2018
+  selected: true
+  venue: "OOPSLA"
+  venue_url: "https://2018.splashcon.org/track/splash-2018-OOPSLA"
+  doi: "10.1145/3276489"
+  awards:
+    - name: "🥈 HiPEAC"
+      text: "Best Paper Award"
+      url:  "https://www.hipeac.net/awards/paper"
+  youtube: "https://youtu.be/pIJga3ioFBs?si=-FVfnZ3YCCrWlG7y"
+  dblp: "journals/pacmpl/LeissaBHPMSMS18"
+
+- id: "pmsmlh18"
+  title: "A Data Layout Transformation for Vectorizing Compilers"
+  authors: "Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Simon Moll, Roland Leißa, Sebastian Hack"
+  year: 2018
+  venue: "WPMVP"
+  venue_url: "https://ppopp18.sigplan.org/track/WPMVP2018"
+  doi: "10.1145/3178433.3178440"
+  dblp: "conf/ppopp/Perard-GayotMSM18"
+
+- id: "l17"
+  title: "Language Support for Programming High-Performance Code"
+  authors: "Roland Leißa"
+  year: 2017
+  bibtype: "phdthesis"
+  venue: "PhD"
+  venue_url: "https://compilers.cs.uni-saarland.de/people/leissa"
+  doi: "10.22028/D291-27128"
+  dblp: "phd/dnb/Leissa17"
+
+- id: "pwmslh17"
+  title: "RaTrace: simple and efficient abstractions for BVH ray traversal algorithms"
+  authors: "Arsène Pérard-Gayot, Martin Weier, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack"
+  year: 2017
+  venue: "GPCE"
+  venue_url: "https://conf.researchr.org/home/gpce-2017"
+  doi: "10.1145/3136040.3136044"
+  dblp: "conf/gpce/Perard-GayotWMS17"
+
+- id: "lkh15"
+  title: "A graph-based higher-order intermediate representation"
+  authors: "Roland Leißa, Marcel Köster, Sebastian Hack"
+  year: 2015
+  selected: true
+  venue: "CGO"
+  venue_url: "https://cgo-conference.github.io/cgo2015"
+  doi: "10.1109/CGO.2015.7054200"
+  awards:
+    - name: "🥈 cTuning"
+      text: "2nd Place"
+      url:  "https://ctuning.org/cm/wiki/index.php?title=Reproducibility:AE:CGO2015"
+  repos:
+    - label: "artifact"
+      url:   "https://github.com/AnyDSL/benchmarks-impala/tree/cgo15"
+  dblp: "conf/cgo/LeissaKH15"
+
+- id: "lbhms15"
+  title: "Shallow embedding of DSLs via online partial evaluation"
+  authors: "Roland Leißa, Klaas Boesche, Sebastian Hack, Richard Membarth, Philipp Slusallek"
+  year: 2015
+  venue: "GPCE"
+  venue_url: "https://conf.researchr.org/home/gpce2015"
+  doi: "10.1145/2814204.2814208"
+  awards:
+    - name: "🥈 Award"
+      text: "Best Paper"
+      url:  "https://graphics.cg.uni-saarland.de/publications/leissa-2015-gpce-shallow-embedding.html"
+  dblp: "conf/gpce/LeissaBHMS15"
+
+- id: "klhms14"
+  title: "Code Refinement of Stencil Codes"
+  authors: "Marcel Köster, Roland Leißa, Sebastian Hack, Richard Membarth, Philipp Slusallek"
+  year: 2014
+  venue: "PPL"
+  venue_url: "https://www.worldscientific.com/toc/ppl/24/03"
+  doi: "10.1142/S0129626414410035"
+  dblp: "journals/ppl/KosterLHMS14"
+
+- id: "dklms14"
+  title: "Specialization through dynamic staging"
+  authors: "Piotr Danilewski, Marcel Köster, Roland Leißa, Richard Membarth, Philipp Slusallek"
+  year: 2014
+  venue: "GPCE"
+  venue_url: "https://www.sigplan.org/OpenTOC/gpce14.html"
+  doi: "10.1145/2658761.2658774"
+  dblp: "conf/gpce/DanilewskiKLMS14"
+
+- id: "lhh14"
+  title: "Sierra: a SIMD extension for C++"
+  authors: "Roland Leißa, Immanuel Haffner, Sebastian Hack"
+  year: 2014
+  venue: "WPMVP"
+  venue_url: "https://www.sigplan.org/OpenTOC/wpmvp14.html"
+  doi: "10.1145/2568058.2568062"
+  repos:
+    - label: "Sierra"
+      url:   "https://sierra-lang.github.io"
+  dblp: "conf/ppopp/LeissaHH14"
+
+- id: "msklh14"
+  title: "Target-specific refinement of multigrid codes"
+  authors: "Richard Membarth, Philipp Slusallek, Marcel Köster, Roland Leißa, Sebastian Hack"
+  year: 2014
+  venue: "WOLFHPC"
+  venue_url: "https://www.computer.org/csdl/proceedings/wolfhpc/2014/12OmNzmclWC"
+  doi: "10.1109/WOLFHPC.2014.5"
+  dblp: "conf/sc/MembarthSKLH14"
+
+- id: "bbhlmz13"
+  title: "Simple and Efficient Construction of Static Single Assignment Form"
+  authors: "Matthias Braun, Sebastian Buchwald, Sebastian Hack, Roland Leißa, Christoph Mallon, Andreas Zwinkau"
+  year: 2013
+  selected: true
+  venue: "CC"
+  venue_url: "https://www.etaps.org/2013/cc.html"
+  doi: "10.1007/978-3-642-37051-9_6"
+  repos:
+    - label: "clang-ssa"
+      url:   "https://github.com/leissa/clang-ssa"
+    - label: "llvm-ssa"
+      url:   "https://github.com/leissa/llvm-ssa"
+  dblp: "conf/cc/BraunBHLMZ13"
+
+- id: "lhw12"
+  title: "Extending a C-like language for portable SIMD programming"
+  authors: "Roland Leißa, Sebastian Hack, Ingo Wald"
+  year: 2012
+  venue: "PPoPP"
+  venue_url: "https://dl.acm.org/doi/proceedings/10.1145/2145816"
+  doi: "10.1145/2145816.2145825"
+  dblp: "conf/ppopp/LeissaHW12"

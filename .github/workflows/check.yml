@@ -1,0 +1,21 @@
+# README.md, leissa.bib and CITATION.cff are generated from publications.yaml.
+# This makes sure nobody hand-edits the generated parts out of sync.
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  generated-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install pyyaml
+      - name: README.md and CITATION.cff match publications.yaml
+        run: tools/gen.py --check

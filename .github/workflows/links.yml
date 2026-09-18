@@ -1,0 +1,18 @@
+# Every publication entry is a pile of links, and a dead one fails *silently*:
+# GitHub just renders a broken badge.  So check them on a schedule.
+name: links
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Mondays, 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --verbose README.md publications.yaml leissa.bib CITATION.cff
+          fail: true
