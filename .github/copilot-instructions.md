@@ -10,10 +10,10 @@ Content surfaces:
 
 - `publications.yaml`: **the source of truth for every publication.** One entry per paper; its header comment documents the fields.
 - `tools/gen.py`: renders `publications.yaml` into the `## 📖 Publications` section of `README.md`, into `leissa.bib`, and into `CITATION.cff`.
-- `README.md`: hand-written head (portrait, logo, social badges, bio, stats card), then the *generated* publication index between the `<!-- BEGIN PUBLICATIONS -->` / `<!-- END PUBLICATIONS -->` markers.
+- `README.md`: hand-written head (logo, social badges, bio, stats card), then the *generated* publication index between the `<!-- BEGIN PUBLICATIONS -->` / `<!-- END PUBLICATIONS -->` markers.
 - `leissa.bib`, `CITATION.cff`: generated; `CITATION.cff` drives GitHub's “Cite this repository” button.
 - `pdf/`: the paper PDFs linked from the README, one per `publications.yaml` entry.
-- `images/`: photos and logos — the portrait and the theme-aware logo in the README head, plus assets for the sibling site, see below.
+- `images/`: photos and logos — the theme-aware logo in the README head, plus assets for the sibling site, see below.
 
 ## Build, test, and lint commands
 
@@ -45,7 +45,7 @@ Consequences:
 
 ## Conventions for publication entries
 
-Sections are year-based and newest-first; within a year, `publications.yaml` order is preserved. Years before `COLLAPSE_BEFORE` (see `tools/gen.py`) are folded into a `<details>` block, and entries flagged `selected` are also listed compactly under `### ⭐ Selected`.
+Sections are year-based and newest-first; within a year, `publications.yaml` order is preserved. Every year sits in a `<details open>` block, so a reader can fold a year away but sees all of them by default. Entries flagged `selected` are also listed compactly under `### ⭐ Selected`.
 
 `id` — which is also the PDF slug — is author initials plus a two-digit year, in author order: `lg26` = Leißa, Griebler 2026; `lumh25` = Leißa, Ullrich, Meyer, Hack 2025; `bbhlmz13` = Braun, Buchwald, Hack, Leißa, Mallon, Zwinkau 2013.
 

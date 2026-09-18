@@ -1,5 +1,3 @@
-<img align="right" width="170" src="https://raw.githubusercontent.com/leissa/leissa/main/images/leissa.jpg" alt="Roland Leißa">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leissa/leissa/main/images/logo-dark.svg">
   <img width="44" src="https://raw.githubusercontent.com/leissa/leissa/main/images/logo.svg" alt="Programming Languages and Compilers">
@@ -41,6 +39,9 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2026
 
+<details open>
+<summary>1 publication</summary>
+
 * **SSA without Dominance for Higher-Order Programs** <br>
   Roland Leißa, Johannes Griebler <br>
   [![PLDI 2026](https://img.shields.io/badge/PLDI-2026-blue?style=flat-square)](https://pldi26.sigplan.org)
@@ -51,9 +52,14 @@ I work on programming languages and compilers, with a focus on intermediate repr
   [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://www.youtube.com/watch?v=Xo5N0SGkuHg)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaG26.html?view=bibtex)
 
+</details>
+
 <a id="2025"></a>
 
 ### 2025
+
+<details open>
+<summary>2 publications</summary>
 
 * **MimIrADe: Automatic Differentiation in MimIR** <br>
   Marcel Ullrich, Sebastian Hack, Roland Leißa <br>
@@ -73,9 +79,14 @@ I work on programming languages and compilers, with a focus on intermediate repr
   [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://youtu.be/2zKUa6b9XYc?si=3ZX68gEHarsCsO-R)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/pacmpl/LeissaUMH25.html?view=bibtex)
 
+</details>
+
 <a id="2023"></a>
 
 ### 2023
+
+<details open>
+<summary>1 publication</summary>
 
 * **Preparing Reproducible Scientific Artifacts using Docker** <br>
   Michael Canesche, Roland Leißa, Fernando Magno Quintão Pereira <br>
@@ -83,9 +94,14 @@ I work on programming languages and compilers, with a focus on intermediate repr
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2308.14122-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2308.14122)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/journals/corr/abs-2308-14122.html?view=bibtex)
 
+</details>
+
 <a id="2022"></a>
 
 ### 2022
+
+<details open>
+<summary>1 publication</summary>
 
 * **AnySeq/GPU: a novel approach for faster sequence alignment on GPUs** <br>
   André Müller, Bertil Schmidt, Richard Membarth, Roland Leißa, Sebastian Hack <br>
@@ -96,9 +112,14 @@ I work on programming languages and compilers, with a focus on intermediate repr
   [![YouTube](https://img.shields.io/badge/YouTube-grey?style=flat-square&logo=youtube)](https://youtu.be/J-QTYowR0zk?si=Y6NtyOcZFmNJ9y5W)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/ics/MullerSMLH22.html?view=bibtex)
 
+</details>
+
 <a id="2021"></a>
 
 ### 2021
+
+<details open>
+<summary>2 publications</summary>
 
 * **tinyMD: Mapping molecular dynamics simulations to heterogeneous hardware using partial evaluation** <br>
   Rafael Ravedutti L. Machado, Jonas Schmitt, Sebastian Eibl, Jan Eitzinger, Roland Leißa, Sebastian Hack, Arsène Pérard-Gayot, Richard Membarth, Harald Köstler <br>
@@ -116,9 +137,14 @@ I work on programming languages and compilers, with a focus on intermediate repr
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2112.07789-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2112.07789)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/fpt/AmiriPMSLH21.html?view=bibtex)
 
+</details>
+
 <a id="2020"></a>
 
 ### 2020
+
+<details open>
+<summary>2 publications</summary>
 
 * **AnyHLS: High-Level Synthesis With Partial Evaluation** <br>
   M. Akif Özkan, Arsène Pérard-Gayot, Richard Membarth, Philipp Slusallek, Roland Leißa, Sebastian Hack, Jürgen Teich, Frank Hannig <br>
@@ -136,11 +162,13 @@ I work on programming languages and compilers, with a focus on intermediate repr
   [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2002.04561-blue?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2002.04561)
   [![dblp](https://img.shields.io/badge/dblp-grey?style=flat-square&logo=dblp)](https://dblp.uni-trier.de/rec/conf/ipps/MullerS0MLKH20.html?view=bibtex)
 
+</details>
+
 <a id="2019"></a>
 
 ### 2019
 
-<details>
+<details open>
 <summary>1 publication</summary>
 
 * **Rodent: generating renderers without writing a generator** <br>
@@ -156,7 +184,7 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2018
 
-<details>
+<details open>
 <summary>2 publications</summary>
 
 * **AnyDSL: a partial evaluation framework for programming high-performance libraries** <br>
@@ -181,7 +209,7 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2017
 
-<details>
+<details open>
 <summary>2 publications</summary>
 
 * **Language Support for Programming High-Performance Code** <br>
@@ -204,7 +232,7 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2015
 
-<details>
+<details open>
 <summary>2 publications</summary>
 
 * **A graph-based higher-order intermediate representation** <br>
@@ -230,7 +258,7 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2014
 
-<details>
+<details open>
 <summary>4 publications</summary>
 
 * **Code Refinement of Stencil Codes** <br>
@@ -268,7 +296,7 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2013
 
-<details>
+<details open>
 <summary>1 publication</summary>
 
 * **Simple and Efficient Construction of Static Single Assignment Form** <br>
@@ -286,7 +314,7 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### 2012
 
-<details>
+<details open>
 <summary>1 publication</summary>
 
 * **Extending a C-like language for portable SIMD programming** <br>
