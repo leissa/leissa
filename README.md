@@ -8,9 +8,9 @@
 I am Professor for Programming Languages and Compilers at the University of Goettingen, Germany.
 I work on programming languages and compilers, with a focus on intermediate representations, type systems, partial evaluation, and high-performance systems.
 
-[![GitHub stats](https://github-stats-extended.vercel.app/api?username=leissa&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/stats-organization/github-stats-extended)
+[![GitHub stats](https://github-stats-extended.vercel.app/api?username=leissa&show_icons=true&count_private=true)](https://github.com/stats-organization/github-stats-extended)
 
-[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=leissa)](https://github.com/stats-organization/github-stats-extended)
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=leissa&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)](https://github.com/stats-organization/github-stats-extended)
 
 ## 📖 Publications
 
