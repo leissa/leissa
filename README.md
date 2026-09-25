@@ -1,8 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leissa/leissa/main/images/logo-dark.svg">
-  <img width="44" src="https://raw.githubusercontent.com/leissa/leissa/main/images/logo.svg" alt="Programming Languages and Compilers">
-</picture>
-
 # Roland Leißa
 
 [![PLaC](https://img.shields.io/badge/PLaC-G%C3%B6ttingen-blue?style=flat-square&logo=starship&logoColor=white)](https://www.uni-goettingen.de/en/707540.html)
