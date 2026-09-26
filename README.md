@@ -45,7 +45,7 @@ MimIR above builds upon FE as well; these front ends do, too:
 * [**Graphtool**](https://github.com/leissa/graphtool) — a simple graph tool
   ![stars](https://img.shields.io/github/stars/leissa/graphtool?style=flat-square&logo=github&label=&color=blue&labelColor=555&logoSize=auto)
 
-### <img src="https://img.shields.io/badge/-KDE_Plasma-blue?style=flat-square&logo=kde&logoColor=white&labelColor=555&logoSize=auto" align="top"> Addons
+### <img src="https://kde.org/stuff/clipart/klogo-official-oxygen-128x128.png" height="24" align="top"> KDE Plasma Addons
 
 * <img src="https://raw.githubusercontent.com/leissa/streamplay/master/assets/logo-512.png" height="18" align="top"> [**Streamplay**](https://github.com/leissa/streamplay) — browse and control a self-hosted music library on Navidrome, Subsonic, Kodi, or MPD
   ![stars](https://img.shields.io/github/stars/leissa/streamplay?style=flat-square&logo=github&label=&color=blue&labelColor=555&logoSize=auto)
@@ -54,6 +54,9 @@ MimIR above builds upon FE as well; these front ends do, too:
 
 ### 🧩 Misc
 
+* [**nvim-swap**](https://github.com/leissa/nvim-swap) — Neovim plugin to reorder delimited items — arguments, list elements, table fields — via tree-sitter
+  ![stars](https://img.shields.io/github/stars/leissa/nvim-swap?style=flat-square&logo=github&label=&color=blue&labelColor=555&logoSize=auto)
+  [![Neovim](https://img.shields.io/badge/-Neovim_0.11%2B-blue?style=flat-square&logo=neovim&logoColor=white&labelColor=555&logoSize=auto)](https://neovim.io)
 * [**CPPlings**](https://github.com/leissa/cpplings) — Rustlings-style exercises for C++
   ![stars](https://img.shields.io/github/stars/leissa/cpplings?style=flat-square&logo=github&label=&color=blue&labelColor=555&logoSize=auto)
 * [**C64engine**](https://github.com/leissa/c64engine) — a game engine for the Commodore 64
