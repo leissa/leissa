@@ -47,9 +47,13 @@ MimIR above builds upon FE as well; these front ends do, too:
 * <img src="https://raw.githubusercontent.com/leissa/streamplay/master/assets/logo-512.png" height="18" align="top"> [**Streamplay**](https://github.com/leissa/streamplay) — browse and control a self-hosted music library on Navidrome, Subsonic, Kodi, or MPD
 * <img src="https://raw.githubusercontent.com/leissa/url-shortener/master/assets/logo.png" height="18" align="top"> [**URL Shortener**](https://github.com/leissa/url-shortener) — Plasma applet to shorten URLs
 
+### <img src="https://neovim.io/logos/neovim-mark.png" height="24" align="top"> Neovim Plugins
+
+* [**nvim-tex**](https://github.com/leissa/nvim-tex) — modern LaTeX plugin based on tree-sitter and LSP
+* [**nvim-swap**](https://github.com/leissa/nvim-swap) — reorder delimited items — arguments, list elements, table fields — via tree-sitter
+
 ### 🧩 Misc
 
-* [**nvim-swap**](https://github.com/leissa/nvim-swap) — Neovim plugin to reorder delimited items — arguments, list elements, table fields — via tree-sitter
 * [**CPPlings**](https://github.com/leissa/cpplings) — Rustlings-style exercises for C++
 * [**C64engine**](https://github.com/leissa/c64engine) — a game engine for the Commodore 64
 
