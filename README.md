@@ -17,22 +17,12 @@ I work on programming languages and compilers, with a focus on intermediate repr
 
 ### <img src="https://raw.githubusercontent.com/mimir/mimir/master/assets/logo.png" height="24" align="top"> [MimIR](https://github.com/mimir/mimir)
 
-![stars](https://img.shields.io/github/stars/mimir/mimir?style=flat-square&logo=github&label=&color=blue&labelColor=555&logoSize=auto)
-[![Docs](https://img.shields.io/badge/Docs-mimir.github.io-blue?style=flat-square&logo=gitbook&logoColor=white)](https://mimir.github.io)
-[![Playground](https://img.shields.io/badge/%E2%96%B6_Playground-grey?style=flat-square&logo=rocket&logoColor=white)](https://mimir.github.io/playground/)
-[![Discord](https://img.shields.io/discord/960975142459179068?style=flat-square&logo=discord&logoColor=white&label=&color=blue&labelColor=555&logoSize=auto)](https://discord.gg/FPp7hdj3fQ)
-[![POPL 2025](https://img.shields.io/badge/POPL-2025-blue?style=flat-square)](https://doi.org/10.1145/3704840)
-
 My main project — I am its principal author and maintainer.
 **MimIR** is a pure, graph-based, higher-order intermediate representation rooted in the *Calculus of Constructions*:
 dependent types and parametric polymorphism out of the box, extensible plugins for domain-specific axioms and code generation, SSA without dominance, and sea-of-nodes-style normalization and partial evaluation.
 It targets DSL, tensor, automatic differentiation, and regex compilers.
 
 ### <img src="https://raw.githubusercontent.com/leissa/fe/main/assets/logo.png" height="24" align="top"> [FE](https://github.com/leissa/fe) — Fast, Efficient FrontEnds
-
-![stars](https://img.shields.io/github/stars/leissa/fe?style=flat-square&logo=github&label=&color=blue&labelColor=555&logoSize=auto)
-[![Docs](https://img.shields.io/badge/Docs-leissa.github.io/fe-blue?style=flat-square&logo=gitbook&logoColor=white)](https://leissa.github.io/fe)
-[![C++23](https://img.shields.io/badge/C%2B%2B-23-blue?style=flat-square&logo=cplusplus)](https://en.wikipedia.org/wiki/C%2B%2B#Standardization)
 
 **FE** is a C++23 toolkit for handwritten compiler and interpreter frontends.
 Instead of generating lexers or parsers, it provides the infrastructure every frontend needs anyway: source locations, diagnostics, interning, parsing support, command-line handling, and efficient memory management.
