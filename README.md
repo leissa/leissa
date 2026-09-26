@@ -38,8 +38,8 @@ It targets DSL, tensor, automatic differentiation, and regex compilers.
 Instead of generating lexers or parsers, it provides the infrastructure every frontend needs anyway: source locations, diagnostics, interning, parsing support, command-line handling, and efficient memory management.
 MimIR above builds upon FE as well; these front ends do, too:
 
-* [**SQL**](https://github.com/leissa/sql) — small and simple SQL parser
 * [**Let**](https://github.com/leissa/let) — a simple demo language that builds upon FE
+* [**SQL**](https://github.com/leissa/sql) — a fast SQL parser
 * [**Graphtool**](https://github.com/leissa/graphtool) — a simple graph tool
 
 ### <img src="https://kde.org/stuff/clipart/klogo-official-oxygen-128x128.png" height="24" align="top"> KDE Plasma Addons
@@ -49,8 +49,8 @@ MimIR above builds upon FE as well; these front ends do, too:
 
 ### <img src="https://neovim.io/logos/neovim-mark.png" height="24" align="top"> Neovim Plugins
 
-* [**nvim-tex**](https://github.com/leissa/nvim-tex) — modern LaTeX plugin based on tree-sitter and LSP
 * [**nvim-swap**](https://github.com/leissa/nvim-swap) — reorder delimited items — arguments, list elements, table fields — via tree-sitter
+* [**nvim-tex**](https://github.com/leissa/nvim-tex) — modern LaTeX plugin based on tree-sitter and LSP
 
 ### 🧩 Misc
 
