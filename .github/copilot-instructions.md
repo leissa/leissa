@@ -10,7 +10,8 @@ Content surfaces:
 
 - `publications.yaml`: **the source of truth for every publication.** One entry per paper; its header comment documents the fields.
 - `tools/gen.py`: renders `publications.yaml` into the `## 📖 Publications` section of `README.md`, into `leissa.bib`, and into `CITATION.cff`.
-- `README.md`: hand-written head (logo, social badges, bio, stats card), then the *generated* publication index between the `<!-- BEGIN PUBLICATIONS -->` / `<!-- END PUBLICATIONS -->` markers.
+- `README.md`: hand-written head (logo, social badges, bio, stats card, the `## 🚀 Projects` section), then the *generated* publication index between the `<!-- BEGIN PUBLICATIONS -->` / `<!-- END PUBLICATIONS -->` markers.
+  The `## 🚀 Projects` section is hand-written and sits *before* `## 📖 Publications`, so the sibling PLaC site (which slices from that heading onwards) does not pick it up. Project icons are hot-linked from each project's own repo (`assets/logo*.png`), star counts are live shields.io badges, and the badges are *not* wrapped in links to `/stargazers` — GitHub answers that page with 404 for logged-out visitors and the weekly link check.
 - `leissa.bib`, `CITATION.cff`: generated; `CITATION.cff` drives GitHub's “Cite this repository” button.
 - `pdf/`: the paper PDFs linked from the README, one per `publications.yaml` entry.
 - `images/`: photos and logos — the theme-aware logo in the README head, plus assets for the sibling site, see below.
