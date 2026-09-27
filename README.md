@@ -41,6 +41,7 @@ MimIR above builds upon FE as well; these front ends do, too:
 
 * [**nvim-swap**](https://github.com/leissa/nvim-swap) — reorder delimited items — arguments, list elements, table fields — via tree-sitter
 * [**nvim-tex**](https://github.com/leissa/nvim-tex) — modern LaTeX plugin based on tree-sitter and LSP
+* [**nvim-typst**](https://github.com/leissa/nvim-typst) — modern Typst plugin based on tree-sitter and LSP
 
 ### 🧩 Misc
 
